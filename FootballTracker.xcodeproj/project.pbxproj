@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BECC1E2C4AC10500884D30 /* FootballTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 71BECC1D2C4AC10500884D30 /* FootballTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71BECC232C4AC10500884D30 /* FootballTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BECC222C4AC10500884D30 /* FootballTrackerApp.swift */; };
+		71BECC252C4AC10500884D30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BECC242C4AC10500884D30 /* ContentView.swift */; };
+		71BECC272C4AC10600884D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BECC262C4AC10600884D30 /* Assets.xcassets */; };
+		71BECC2A2C4AC10600884D30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BECC292C4AC10600884D30 /* Preview Assets.xcassets */; };
+		71BECC342C4AC10700884D30 /* FootballTracker_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BECC332C4AC10700884D30 /* FootballTracker_Watch_AppTests.swift */; };
+		71BECC3E2C4AC10700884D30 /* FootballTracker_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BECC3D2C4AC10700884D30 /* FootballTracker_Watch_AppUITests.swift */; };
+		71BECC402C4AC10700884D30 /* FootballTracker_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BECC3F2C4AC10700884D30 /* FootballTracker_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BECC1F2C4AC10500884D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BECC112C4AC10500884D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BECC1C2C4AC10500884D30;
+			remoteInfo = "FootballTracker Watch App";
+		};
+		71BECC302C4AC10700884D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BECC112C4AC10500884D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BECC1C2C4AC10500884D30;
+			remoteInfo = "FootballTracker Watch App";
+		};
+		71BECC3A2C4AC10700884D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BECC112C4AC10500884D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BECC1C2C4AC10500884D30;
+			remoteInfo = "FootballTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71BECC462C4AC10700884D30 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				71BECC1E2C4AC10500884D30 /* FootballTracker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		71BECC172C4AC10500884D30 /* FootballTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BECC1D2C4AC10500884D30 /* FootballTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootballTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BECC222C4AC10500884D30 /* FootballTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTrackerApp.swift; sourceTree = "<group>"; };
+		71BECC242C4AC10500884D30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71BECC262C4AC10600884D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BECC292C4AC10600884D30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71BECC2F2C4AC10700884D30 /* FootballTracker Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FootballTracker Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BECC332C4AC10700884D30 /* FootballTracker_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTracker_Watch_AppTests.swift; sourceTree = "<group>"; };
+		71BECC392C4AC10700884D30 /* FootballTracker Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FootballTracker Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BECC3D2C4AC10700884D30 /* FootballTracker_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTracker_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		71BECC3F2C4AC10700884D30 /* FootballTracker_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballTracker_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BECC1A2C4AC10500884D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC2C2C4AC10700884D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC362C4AC10700884D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BECC102C4AC10500884D30 = {
+			isa = PBXGroup;
+			children = (
+				71BECC212C4AC10500884D30 /* FootballTracker Watch App */,
+				71BECC322C4AC10700884D30 /* FootballTracker Watch AppTests */,
+				71BECC3C2C4AC10700884D30 /* FootballTracker Watch AppUITests */,
+				71BECC182C4AC10500884D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BECC182C4AC10500884D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BECC172C4AC10500884D30 /* FootballTracker.app */,
+				71BECC1D2C4AC10500884D30 /* FootballTracker Watch App.app */,
+				71BECC2F2C4AC10700884D30 /* FootballTracker Watch AppTests.xctest */,
+				71BECC392C4AC10700884D30 /* FootballTracker Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BECC212C4AC10500884D30 /* FootballTracker Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				71BECC222C4AC10500884D30 /* FootballTrackerApp.swift */,
+				71BECC242C4AC10500884D30 /* ContentView.swift */,
+				71BECC262C4AC10600884D30 /* Assets.xcassets */,
+				71BECC282C4AC10600884D30 /* Preview Content */,
+			);
+			path = "FootballTracker Watch App";
+			sourceTree = "<group>";
+		};
+		71BECC282C4AC10600884D30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71BECC292C4AC10600884D30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71BECC322C4AC10700884D30 /* FootballTracker Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				71BECC332C4AC10700884D30 /* FootballTracker_Watch_AppTests.swift */,
+			);
+			path = "FootballTracker Watch AppTests";
+			sourceTree = "<group>";
+		};
+		71BECC3C2C4AC10700884D30 /* FootballTracker Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71BECC3D2C4AC10700884D30 /* FootballTracker_Watch_AppUITests.swift */,
+				71BECC3F2C4AC10700884D30 /* FootballTracker_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "FootballTracker Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BECC162C4AC10500884D30 /* FootballTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BECC472C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker" */;
+			buildPhases = (
+				71BECC152C4AC10500884D30 /* Resources */,
+				71BECC462C4AC10700884D30 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BECC202C4AC10500884D30 /* PBXTargetDependency */,
+			);
+			name = FootballTracker;
+			productName = FootballTracker;
+			productReference = 71BECC172C4AC10500884D30 /* FootballTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		71BECC1C2C4AC10500884D30 /* FootballTracker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BECC432C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker Watch App" */;
+			buildPhases = (
+				71BECC192C4AC10500884D30 /* Sources */,
+				71BECC1A2C4AC10500884D30 /* Frameworks */,
+				71BECC1B2C4AC10500884D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FootballTracker Watch App";
+			productName = "FootballTracker Watch App";
+			productReference = 71BECC1D2C4AC10500884D30 /* FootballTracker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BECC2E2C4AC10700884D30 /* FootballTracker Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BECC4A2C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker Watch AppTests" */;
+			buildPhases = (
+				71BECC2B2C4AC10700884D30 /* Sources */,
+				71BECC2C2C4AC10700884D30 /* Frameworks */,
+				71BECC2D2C4AC10700884D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BECC312C4AC10700884D30 /* PBXTargetDependency */,
+			);
+			name = "FootballTracker Watch AppTests";
+			productName = "FootballTracker Watch AppTests";
+			productReference = 71BECC2F2C4AC10700884D30 /* FootballTracker Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71BECC382C4AC10700884D30 /* FootballTracker Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BECC4D2C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker Watch AppUITests" */;
+			buildPhases = (
+				71BECC352C4AC10700884D30 /* Sources */,
+				71BECC362C4AC10700884D30 /* Frameworks */,
+				71BECC372C4AC10700884D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BECC3B2C4AC10700884D30 /* PBXTargetDependency */,
+			);
+			name = "FootballTracker Watch AppUITests";
+			productName = "FootballTracker Watch AppUITests";
+			productReference = 71BECC392C4AC10700884D30 /* FootballTracker Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BECC112C4AC10500884D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					71BECC162C4AC10500884D30 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					71BECC1C2C4AC10500884D30 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					71BECC2E2C4AC10700884D30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 71BECC1C2C4AC10500884D30;
+					};
+					71BECC382C4AC10700884D30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 71BECC1C2C4AC10500884D30;
+					};
+				};
+			};
+			buildConfigurationList = 71BECC142C4AC10500884D30 /* Build configuration list for PBXProject "FootballTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BECC102C4AC10500884D30;
+			productRefGroup = 71BECC182C4AC10500884D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BECC162C4AC10500884D30 /* FootballTracker */,
+				71BECC1C2C4AC10500884D30 /* FootballTracker Watch App */,
+				71BECC2E2C4AC10700884D30 /* FootballTracker Watch AppTests */,
+				71BECC382C4AC10700884D30 /* FootballTracker Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BECC152C4AC10500884D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC1B2C4AC10500884D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BECC2A2C4AC10600884D30 /* Preview Assets.xcassets in Resources */,
+				71BECC272C4AC10600884D30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC2D2C4AC10700884D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC372C4AC10700884D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BECC192C4AC10500884D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BECC252C4AC10500884D30 /* ContentView.swift in Sources */,
+				71BECC232C4AC10500884D30 /* FootballTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC2B2C4AC10700884D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BECC342C4AC10700884D30 /* FootballTracker_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BECC352C4AC10700884D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BECC402C4AC10700884D30 /* FootballTracker_Watch_AppUITestsLaunchTests.swift in Sources */,
+				71BECC3E2C4AC10700884D30 /* FootballTracker_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BECC202C4AC10500884D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BECC1C2C4AC10500884D30 /* FootballTracker Watch App */;
+			targetProxy = 71BECC1F2C4AC10500884D30 /* PBXContainerItemProxy */;
+		};
+		71BECC312C4AC10700884D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BECC1C2C4AC10500884D30 /* FootballTracker Watch App */;
+			targetProxy = 71BECC302C4AC10700884D30 /* PBXContainerItemProxy */;
+		};
+		71BECC3B2C4AC10700884D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BECC1C2C4AC10500884D30 /* FootballTracker Watch App */;
+			targetProxy = 71BECC3A2C4AC10700884D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71BECC412C4AC10700884D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71BECC422C4AC10700884D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		71BECC442C4AC10700884D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballTracker Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FootballTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denizinho.FootballTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		71BECC452C4AC10700884D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballTracker Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FootballTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denizinho.FootballTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		71BECC482C4AC10700884D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = FootballTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denizinho.FootballTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71BECC492C4AC10700884D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = FootballTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denizinho.FootballTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BECC4B2C4AC10700884D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "denizinho.FootballTracker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballTracker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FootballTracker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		71BECC4C2C4AC10700884D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "denizinho.FootballTracker-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballTracker Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FootballTracker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		71BECC4E2C4AC10700884D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "denizinho.FootballTracker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FootballTracker Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		71BECC4F2C4AC10700884D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "denizinho.FootballTracker-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FootballTracker Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BECC142C4AC10500884D30 /* Build configuration list for PBXProject "FootballTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BECC412C4AC10700884D30 /* Debug */,
+				71BECC422C4AC10700884D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BECC432C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BECC442C4AC10700884D30 /* Debug */,
+				71BECC452C4AC10700884D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BECC472C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BECC482C4AC10700884D30 /* Debug */,
+				71BECC492C4AC10700884D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BECC4A2C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BECC4B2C4AC10700884D30 /* Debug */,
+				71BECC4C2C4AC10700884D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BECC4D2C4AC10700884D30 /* Build configuration list for PBXNativeTarget "FootballTracker Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BECC4E2C4AC10700884D30 /* Debug */,
+				71BECC4F2C4AC10700884D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BECC112C4AC10500884D30 /* Project object */;
+}
